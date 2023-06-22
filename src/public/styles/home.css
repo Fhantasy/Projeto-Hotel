@@ -124,6 +124,9 @@ header {
 .leisureSection {
   overflow: hidden;
 }
+.leisureSection .contentDiv {
+  background-color: #007990;
+}
 .leisureSection .activitiesDiv {
   background-color: #007990;
   height: 700px;

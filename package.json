@@ -1,0 +1,16 @@
+{
+  "main": "app.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sass": "^1.63.4"
+  }
+}

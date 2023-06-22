@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url("../images/hotelImg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.adviseSection {
+  background-color: #007990;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px 0px;
+}
+.adviseSection h2 {
+  overflow: hidden;
+  margin: 0px 10px;
+  color: #ffd500;
+  font-weight: bold;
+  font-family: "Basic", sans-serif;
+}
+.adviseSection h2 img {
+  width: 35px;
+}
+
+.sectionTitle {
+  overflow: hidden;
+  text-align: center;
+  font-family: "Asar", serif;
+  font-weight: bold;
+  color: #232323;
+}
+
+.sectionSubtitle {
+  overflow: hidden;
+  text-align: center;
+  font-family: "Alatsi", sans-serif;
+  color: #38adc4;
+}
+
+.landscapeSection {
+  overflow: hidden;
+  margin: 50px 0px;
+}
+.landscapeSection .landscape, .landscapeSection .landscape3, .landscapeSection .landscape2, .landscapeSection .landscape1 {
+  color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 266px;
+  margin: 35px 10px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.landscapeSection .landscape:hover, .landscapeSection .landscape3:hover, .landscapeSection .landscape2:hover, .landscapeSection .landscape1:hover {
+  transform: scale(110%);
+  box-shadow: -8px 8px 10px black;
+}
+.landscapeSection .landscape .cardContent, .landscapeSection .landscape3 .cardContent, .landscapeSection .landscape2 .cardContent, .landscapeSection .landscape1 .cardContent {
+  background-color: rgba(0, 120, 144, 0.6039215686);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.landscapeSection .landscape .cardContent .cardTitle, .landscapeSection .landscape3 .cardContent .cardTitle, .landscapeSection .landscape2 .cardContent .cardTitle, .landscapeSection .landscape1 .cardContent .cardTitle {
+  font-family: "Sansita Swashed", cursive;
+}
+.landscapeSection .landscape .cardContent .cardDescription, .landscapeSection .landscape3 .cardContent .cardDescription, .landscapeSection .landscape2 .cardContent .cardDescription, .landscapeSection .landscape1 .cardContent .cardDescription {
+  font-family: "Alatsi", sans-serif;
+}
+.landscapeSection .landscape1 {
+  background-image: url("../images/home/lsHotelImg.jpg");
+}
+.landscapeSection .landscape2 {
+  background-image: url("../images/home/lsWaterfall.jpg");
+}
+.landscapeSection .landscape3 {
+  background-image: url("../images/home/lsWheel.jpg");
+}
+
+.separator {
+  text-align: center;
+  margin: 50px 0px;
+}
+.separator img {
+  max-width: 500px;
+}
+
+.grastronomySection {
+  overflow: hidden;
+}
+.grastronomySection .cardsDiv {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.grastronomySection .cardsDiv .card-body {
+  overflow-y: hidden;
+  height: 173px;
+  border-radius: 0 0 8px 8px;
+}
+.grastronomySection .cardsDiv .card-body h5 {
+  overflow-y: hidden;
+  color: #232323;
+  font-family: "Asar", serif;
+  font-weight: bold;
+}
+.grastronomySection .cardsDiv .card-body p {
+  color: #f5f5f5;
+  font-family: "Alatsi", sans-serif;
+}
+.grastronomySection .cardImg {
+  height: 250px;
+}
+
+.leisureSection {
+  overflow: hidden;
+}
+.leisureSection .activitiesDiv {
+  background-color: #007990;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.leisureSection .activitiesDiv .menuActivities {
+  height: 700px;
+  width: 320px;
+  padding: 20px;
+  background: linear-gradient(#f5f5f5, #007990 75%);
+}
+.leisureSection .activitiesDiv .menuActivities .menuTitle {
+  font-family: "Asar", serif;
+  font-weight: bold;
+  color: #232323;
+  margin-bottom: 30px;
+}
+.leisureSection .activitiesDiv .menuActivities .menuButtons {
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+.leisureSection .activitiesDiv .menuActivities .menuButtons .menuBtn {
+  background-color: #f5f5f5;
+  margin-top: 15px;
+  font-family: "Alatsi", sans-serif;
+  color: #232323;
+  font-weight: bold;
+}
+.leisureSection .activitiesDiv .menuActivities .menuButtons .menuBtn:hover {
+  color: white;
+  background-color: #38adc4;
+}
+.leisureSection .activitiesDiv .menuActivities .menuButtons .menuActive {
+  color: white;
+  background-color: #38adc4;
+}
+.leisureSection .activitiesDiv .activityDiv {
+  position: relative;
+  width: 60%;
+}
+.leisureSection .activitiesDiv .activityDiv .activityTitle {
+  position: absolute;
+  z-index: 1;
+  top: -35px;
+  left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.6862745098);
+  width: 300px;
+  height: 70px;
+  font-family: "Sansita Swashed", cursive;
+}
+.leisureSection .activitiesDiv .activityDiv .activityDescription {
+  font-family: "Alatsi", sans-serif;
+  color: #f5f5f5;
+  background-color: rgba(66, 66, 66, 0.5803921569);
+  position: absolute;
+  bottom: 10px;
+  margin: 0 20px;
+  padding: 8px;
+}
+.leisureSection .activitiesDiv .activityDiv .activityImg {
+  max-width: 100%;
+}
+
+.bedroomsSection {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+.bedroomsSection .bedroomsCardsDiv .bedroomCard {
+  position: relative;
+}
+.bedroomsSection .bedroomsCardsDiv .bedroomCard img {
+  width: 350px;
+  height: 230px;
+  border-radius: 8px;
+}
+.bedroomsSection .bedroomsCardsDiv .cardContent {
+  position: absolute;
+  background-color: rgba(0, 120, 144, 0.6039215686);
+  padding: 10px 15px;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  color: #f5f5f5;
+}
+.bedroomsSection .bedroomsCardsDiv .cardContent h2 {
+  font-family: "Sansita Swashed", cursive;
+}
+.bedroomsSection .bedroomsCardsDiv .cardContent td {
+  font-family: "Alatsi", sans-serif;
+  background-color: transparent;
+  color: #f5f5f5;
+}
+.bedroomsSection .bedroomsInfoDiv {
+  width: 50%;
+}
+.bedroomsSection .bedroomsInfoDiv .sectionDescription {
+  text-align: center;
+  font-family: "Alatsi", sans-serif;
+  margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+  .leisureSection .activitiesDiv .activityDiv .activityDescription {
+    position: static;
+    margin: 0;
+  }
+  .bedroomsSection {
+    gap: 50px;
+  }
+  .bedroomsSection .bedroomsInfoDiv {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  .leisureSection .activitiesDiv {
+    flex-wrap: wrap;
+    gap: 0;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .leisureSection .activitiesDiv .menuActivities {
+    height: 450px;
+    background: linear-gradient(#f5f5f5, #007990 90%);
+  }
+  .leisureSection .activitiesDiv .activityDiv {
+    width: 100%;
+  }
+  .leisureSection .activitiesDiv .activityDiv .activityTitle {
+    left: 2px;
+  }
+  .leisureSection .activitiesDiv .activityDiv .activityDescription {
+    position: static;
+    margin: 0;
+  }
+}
+@media (max-width: 573px) {
+  .separator img {
+    width: 95%;
+  }
+}
+@media (max-width: 486px) {
+  .bedroomsSection .bedroomsCardsDiv .bedroomCard img {
+    width: 100%;
+    height: auto;
+  }
+  .bedroomsSection .bedroomsCardsDiv .cardContent td {
+    line-height: 14px;
+  }
+  .bedroomsSection .bedroomsInfoDiv {
+    width: 90%;
+  }
+  .leisureSection .activitiesDiv .activityDiv .activityTitle {
+    width: 80%;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

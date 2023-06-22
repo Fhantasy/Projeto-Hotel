@@ -1,0 +1,31 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5058823529);
+}
+.navbar .navLinks a {
+  margin-right: 15px;
+  font-family: "Alatsi", sans-serif;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 15px;
+}
+.navbar .navLinks a:hover {
+  color: #38adc4;
+}
+
+.logoText {
+  font-family: "Allura", cursive;
+  color: #38adc4;
+  font-size: 34px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 486px) {
+  .navbar #navbarContent {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

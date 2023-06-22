@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <%- include ("../layouts/head", {title: "Bela Vista",
+  css:"src/public/styles/home.css"}) %>
+  <body style="background-color: #f5f5f5">
+    <header><%- include ("../layouts/header") %></header>
+    <section class="adviseSection">
+      <h2 data-aos="zoom-in" data-aos-duration="1000">Faça já a sua reserva</h2>
+      <h2 data-aos="zoom-in" data-aos-duration="1000">
+        <img src="src/public/images/whatsapp.svg" />(00) 00000-0000
+      </h2>
+    </section>
+    <section class="landscapeSection container">
+      <h1 class="sectionTitle" data-aos="fade-left" data-aos-duration="1000">
+        Paisagens Incríveis
+      </h1>
+      <h6 class="sectionSubtitle" data-aos="fade-left" data-aos-duration="1200">
+        Lorem ipsum dolor sit amet
+      </h6>
+      <div
+        class="d-flex align-items-center justify-content-center flex-wrap gap-5 mt-4"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div
+          class="landscape1"
+          onmouseenter="setEnableText(this)"
+          onmouseleave="setDisableText(this)"
+        >
+          <div style="display: none" class="cardContent">
+            <h4 class="cardTitle">Serra do Marreco</h4>
+            <hr />
+            <p class="cardDescription">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore, quibusdam vitae provident voluptatem impedit
+              perspiciatis soluta cum odit, ex laboriosam eius unde cumque,
+              delectus laudantium nemo autem animi nihil facere.
+            </p>
+          </div>
+        </div>
+        <div
+          class="landscape2"
+          onmouseenter="setEnableText(this)"
+          onmouseleave="setDisableText(this)"
+        >
+          <div style="display: none" class="cardContent">
+            <h4 class="cardTitle">Cachoeira</h4>
+            <hr />
+            <p class="cardDescription">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore, quibusdam vitae provident voluptatem impedit
+              perspiciatis soluta cum odit, ex laboriosam eius unde cumque,
+              delectus laudantium nemo autem animi nihil facere.
+            </p>
+          </div>
+        </div>
+        <div
+          class="landscape3"
+          onmouseenter="setEnableText(this)"
+          onmouseleave="setDisableText(this)"
+        >
+          <div style="display: none" class="cardContent">
+            <h4 class="cardTitle">Lago dos Patos</h4>
+            <hr />
+            <p class="cardDescription">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Inventore, quibusdam vitae provident voluptatem impedit
+              perspiciatis soluta cum odit, ex laboriosam eius unde cumque,
+              delectus laudantium nemo autem animi nihil facere.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="separator">
+      <img src="src/public/images/leafSeparator.png" alt="leafSeparator" />
+    </div>
+    <section class="grastronomySection container">
+      <h1 class="sectionTitle" data-aos="fade-left" data-aos-duration="1000">
+        Gastronomia
+      </h1>
+      <h6 class="sectionSubtitle" data-aos="fade-left" data-aos-duration="1200">
+        Lorem ipsum dolor sit amet
+      </h6>
+      <div class="cardsDiv">
+        <div
+          class="card"
+          style="width: 20rem"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <img
+            src="src/public/images/home/breakfast.jpg"
+            class="card-img-top cardImg"
+            alt="..."
+          />
+          <div class="card-body" style="background-color: #af3a11">
+            <h5 class="card-title text-center">Café da manhã Colonial</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              porro omnis quas cum accusantium accusamus. Illo, provident neque!
+              Aperiam dolores dignissimos nostrum at placeat
+            </p>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="width: 20rem"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          <img
+            src="src/public/images/home/lunch.webp"
+            class="card-img-top cardImg"
+            alt="..."
+          />
+          <div class="card-body" style="background-color: #af3a11">
+            <h5 class="card-title text-center">Almoço com Buffet Livre</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              porro omnis quas cum accusantium accusamus.
+            </p>
+          </div>
+        </div>
+        <div
+          class="card"
+          style="width: 20rem"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <img
+            src="src/public/images/home/dinner.jpg"
+            class="card-img-top cardImg"
+            alt="..."
+          />
+          <div class="card-body" style="background-color: #af3a11">
+            <h5 class="card-title text-center">Jantar ao Ar Livre</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              porro omnis quas cum accusantium accusamus. Lorem ipsum dolor, sit
+              amet consectetur
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="separator">
+      <img src="src/public/images/leafSeparator.png" alt="leafSeparator" />
+    </div>
+    <section class="leisureSection">
+      <h1 class="sectionTitle" data-aos="fade-left" data-aos-duration="1000">
+        Lazer
+      </h1>
+      <h6 class="sectionSubtitle" data-aos="fade-left" data-aos-duration="1200">
+        Lorem ipsum dolor sit amet
+      </h6>
+      <div class="bg-primary">
+        <div class="container">
+          <div class="activitiesDiv">
+            <div
+              class="menuActivities"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              <h2 class="menuTitle">Atividades</h2>
+              <div class="menuButtons">
+                <button
+                  class="menuBtn btn btn-secondary menuActive"
+                  id="trail"
+                  onclick="choseActivity(this)"
+                >
+                  Trilha
+                </button>
+                <button
+                  class="menuBtn btn btn-secondary"
+                  id="horseTour"
+                  onclick="choseActivity(this)"
+                >
+                  Passeio a Cavalo
+                </button>
+                <button
+                  class="menuBtn btn btn-secondary"
+                  id="zipline"
+                  onclick="choseActivity(this)"
+                >
+                  Tirolesa
+                </button>
+                <button
+                  class="menuBtn btn btn-secondary"
+                  id="waterfall"
+                  onclick="choseActivity(this)"
+                >
+                  Cachoeira
+                </button>
+                <button
+                  class="menuBtn btn btn-secondary"
+                  id="spa"
+                  onclick="choseActivity(this)"
+                >
+                  Spa
+                </button>
+              </div>
+            </div>
+            <div class="activityDiv">
+              <div
+                class="activityTitle"
+                data-aos="fade-down-left"
+                data-aos-duration="1000"
+              >
+                <h2 id="activityTitle">Trilha</h2>
+              </div>
+              <img
+                src="src/public/images/home/trail.jpg"
+                alt=""
+                class="activityImg"
+                data-aos="fade-up-left"
+                data-aos-duration="1000"
+              />
+              <p class="activityDescription" id="activityDescription">
+                Trilha Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sequi vel molestiae necessitatibus ratione libero in vitae ex
+                delectus laboriosam repudiandae magni nam, nobis molestias
+                soluta eaque! Nam ipsum numquam facilis! Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="separator">
+      <img src="src/public/images/leafSeparator.png" alt="leafSeparator" />
+    </div>
+    <section class="bedroomsSection container">
+      <div class="bedroomsCardsDiv">
+        <div
+          class="bedroomCard mb-5"
+          onmouseenter="setEnableText(this)"
+          onmouseleave="setDisableText(this)"
+          data-aos="flip-left"
+          data-aos-duration="1000"
+        >
+          <div style="display: none" class="cardContent">
+            <h2>Suite Aconchego</h2>
+            <table class="table">
+              <tr>
+                <td>Uma cama de casal</td>
+              </tr>
+              <tr>
+                <td>70m²</td>
+              </tr>
+              <tr>
+                <td>Ar condicionado</td>
+              </tr>
+              <tr>
+                <td>Serviço de quarto</td>
+              </tr>
+            </table>
+          </div>
+          <img src="src/public/images/home/suiteAconchego.jpg" alt="" />
+        </div>
+        <div
+          class="bedroomCard mt-5"
+          onmouseenter="setEnableText(this)"
+          onmouseleave="setDisableText(this)"
+          data-aos="flip-left"
+          data-aos-duration="1000"
+        >
+          <div style="display: none" class="cardContent">
+            <h2>Suite Marmore</h2>
+            <table class="table">
+              <tr>
+                <td>Duas camas de solteiro</td>
+              </tr>
+              <tr>
+                <td>65m²</td>
+              </tr>
+              <tr>
+                <td>Ar condicionado</td>
+              </tr>
+              <tr>
+                <td>Serviço de quarto</td>
+              </tr>
+            </table>
+          </div>
+          <img src="src/public/images/home/suiteMarmore.jpg" alt="" />
+        </div>
+      </div>
+      <div class="bedroomsInfoDiv">
+        <h1 class="sectionTitle" data-aos="fade-left" data-aos-duration="1000">
+          Suites Temáticas
+        </h1>
+        <h6
+          class="sectionSubtitle"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
+          Lorem ipsum dolor sit amet
+        </h6>
+        <p
+          class="sectionDescription"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
+          velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate
+          commodo lectus, ac blandit elit tincidunt id.
+        </p>
+      </div>
+    </section>
+
+    <%- include ("../layouts/footer") %>
+  </body>
+</html>

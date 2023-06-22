@@ -14,3 +14,5 @@ app.set("view engine", "ejs");
 app.use("/", Routes.index);
 
 app.listen(3000, () => console.log("Conectado"));
+
+module.exports = app;
